@@ -1,0 +1,663 @@
+/**
+ * Helpers
+ */
+#lfa-store *,
+#lfa-wrapper * {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.hide {
+  display: none;
+}
+.lfa-active {
+  color: green;
+}
+.pro-badge {
+  display: inline-block;
+  margin: 0 -32px 0 0;
+  padding: 0 7px;
+  background: tomato;
+  color: white;
+  font-size: 9px;
+  border-radius: 30px;
+  vertical-align: text-top;
+  text-transform: uppercase;
+}
+#lfa-store li {
+  position: relative;
+  float: left;
+  margin: 0 20px 20px 0;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+#lfa-store li a {
+  display: block;
+  text-decoration: none;
+}
+#lfa-store li:last-child {
+  margin-right: 0;
+}
+#lfa-store li:hover,
+#lfa-store li:focus {
+  border-color: dodgerblue;
+}
+#lfa-store li:hover .template,
+#lfa-store li:focus .template {
+  border-color: #fff;
+}
+#lfa-store li:hover .expandable,
+#lfa-store li:focus .expandable {
+  top: 130px;
+  right: -1px;
+  left: -1px;
+  transition: top 0.3s ease-in-out;
+}
+#lfa-store li:hover .card,
+#lfa-store li:focus .card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+#lfa-store li img {
+  max-width: 100%;
+  border: 5px solid #fff;
+  width: 268px;
+  height: 204px;
+}
+#lfa-store li .template {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  width: 270px;
+  height: 246px;
+  overflow: hidden;
+}
+#lfa-store li .card {
+  position: relative;
+  z-index: 1;
+  display: table;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+}
+#lfa-store li .card span {
+  display: table-cell;
+  padding: 10px;
+  background: #fff;
+}
+#lfa-store li .card span + span {
+  border-left: 1px solid #ccc;
+}
+#lfa-store li .card span.price {
+  width: 25%;
+  text-align: center;
+}
+#lfa-store li .description {
+  position: relative;
+  z-index: 1;
+  padding: 10px 11px;
+  background: #fff;
+  color: #333;
+  border-top: 1px solid #ccc;
+  height: 205px;
+}
+#lfa-store li .expandable {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 205px;
+  transition: top 0.3s ease-in-out;
+}
+#lfa-wrapper {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  margin-bottom: 20px;
+  /**
+     * Section
+     */
+}
+#lfa-wrapper .section {
+  border-bottom: 1px solid #dddddd;
+  /**
+         * Title
+         */
+  /**
+         * Section
+         */
+}
+#lfa-wrapper .section .title {
+  background: #f5f5f5;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  cursor: pointer;
+}
+#lfa-wrapper .section .content {
+  padding: 15px;
+  /**
+             * Elements
+             */
+  /**
+             * Choices
+             */
+}
+#lfa-wrapper .section .content input,
+#lfa-wrapper .section .content select,
+#lfa-wrapper .section .content textarea {
+  padding: 10px;
+}
+#lfa-wrapper .section .content textarea {
+  width: 100%;
+  margin: 0;
+}
+#lfa-wrapper .section .content select {
+  height: auto;
+}
+#lfa-wrapper .section .content p {
+  margin: 0;
+}
+#lfa-wrapper .section .content p + p {
+  margin-top: 15px;
+}
+#lfa-wrapper .section .content label {
+  display: inline-block;
+}
+#lfa-wrapper .section .content label span {
+  display: block;
+  margin-bottom: 15px;
+}
+#lfa-wrapper .section .content hr {
+  border: 0;
+  border-top: 1px dotted #ddd;
+  margin: 15px -15px;
+}
+#lfa-wrapper .section .content p > label + label {
+  margin-left: 15px;
+}
+#lfa-wrapper .section .content p > button + button {
+  margin-left: 10px;
+}
+#lfa-wrapper .section .content .datepicker {
+  background-color: #fff;
+}
+#lfa-wrapper .section .content .wp-editor-wrap {
+  margin-top: 15px;
+}
+#lfa-wrapper .section .content .wp-editor-wrap .wp-switch-editor {
+  box-sizing: content-box;
+}
+#lfa-wrapper .section .content .wp-editor-wrap input,
+#lfa-wrapper .section .content .wp-editor-wrap select,
+#lfa-wrapper .section .content .wp-editor-wrap textarea {
+  padding: 0 10px;
+}
+#lfa-wrapper .section .content .choice-types {
+  display: inline-block;
+  float: left;
+  max-width: 80px;
+  min-width: 80px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#lfa-wrapper .section .content .choice-types li {
+  margin: 0;
+}
+#lfa-wrapper .section .content .choice-types li button {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+#lfa-wrapper .section .content .choice-types li + li {
+  margin-top: 10px;
+}
+#lfa-wrapper .section .content .choices-container {
+  display: block;
+  margin-left: 90px;
+  border: 2px dashed #dddddd;
+  padding: 15px;
+  min-height: 180px;
+}
+#lfa-wrapper .section .content .choices-container .choice-sortable-placeholder {
+  background: #eee;
+}
+#lfa-wrapper .section .content .choices-container .ui-sortable-helper {
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.25);
+  border-color: #bbbbbb;
+}
+#lfa-wrapper .section .content .choices-container > div {
+  margin-bottom: 15px;
+}
+#lfa-wrapper .section .content .choices-container > div:last-child {
+  margin-bottom: 0;
+}
+#lfa-wrapper .section .content .choices-container .choice {
+  position: relative;
+}
+#lfa-wrapper .section .content .choices-container .choice input + input,
+#lfa-wrapper .section .content .choices-container .choice input + select,
+#lfa-wrapper .section .content .choices-container .choice input + textarea,
+#lfa-wrapper .section .content .choices-container .choice select + select,
+#lfa-wrapper .section .content .choices-container .choice select + input,
+#lfa-wrapper .section .content .choices-container .choice select + textarea,
+#lfa-wrapper .section .content .choices-container .choice textarea + textarea textarea + input,
+#lfa-wrapper .section .content .choices-container .choice textarea + select {
+  border-top: 0;
+}
+#lfa-wrapper .section .content .choices-container .votes-counter {
+  display: none;
+}
+#lfa-wrapper .section .content .choices-container .choice-controllers {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: table;
+  margin: 0;
+  padding: 0;
+}
+#lfa-wrapper .section .content .choices-container .choice-controllers li {
+  display: table-cell;
+}
+#lfa-wrapper .section .content .choices-container .choice-controllers li button {
+  border: none;
+  background: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 1px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+#lfa-wrapper .section .content .choices-container .choice-controllers li button.delete {
+  background: #D63E1C;
+  color: #fff;
+}
+#lfa-wrapper .section .content .choices-container .choice-controllers li button.move {
+  background: #CCCCCC;
+  cursor: n-resize;
+}
+#lfa-wrapper .section .content .choices-container .choice-controllers li button.upload {
+  background: #1773B1;
+  color: #fff;
+}
+#lfa-wrapper .section .content .choices-container.show-votes-fields .votes-counter {
+  display: inline-block;
+}
+#lfa-wrapper .section.collapsed {
+  border-bottom: 0;
+}
+#lfa-wrapper .section.collapsed .content {
+  display: none;
+}
+#lfa-wrapper .section .tab-state {
+  display: none;
+}
+#lfa-wrapper .section.design .content {
+  padding: 0;
+}
+#lfa-wrapper .customizer {
+  display: table;
+  width: 100%;
+  background: #fff;
+}
+#lfa-wrapper .customizer > div {
+  display: table-cell;
+  vertical-align: top;
+}
+#lfa-wrapper .customizer .settings-sections {
+  width: 25%;
+  border-right: 1px solid #ddd;
+}
+#lfa-wrapper .customizer .settings-sections > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+  background: #f5f5f5;
+}
+#lfa-wrapper .customizer .settings-sections > a.toggled,
+#lfa-wrapper .customizer .settings-sections > a:hover,
+#lfa-wrapper .customizer .settings-sections > a:focus {
+  background: floralwhite;
+}
+#lfa-wrapper .customizer .settings-sections .settings-section {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 15px;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+#lfa-wrapper .customizer .settings-sections .settings-section:last-child {
+  border-bottom: 0;
+}
+#lfa-wrapper .customizer .settings-sections .settings-section .settings-field-container {
+  border-bottom: 1px solid #ddd;
+  margin: -15px;
+  padding: 15px;
+}
+#lfa-wrapper .customizer .settings-sections .settings-section .settings-field-container + .settings-field-container {
+  margin-top: 15px;
+}
+#lfa-wrapper .customizer .settings-sections .settings-section .settings-field-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+#lfa-wrapper .customizer .preview-pane {
+  width: 75%;
+  min-height: 600px;
+  padding: 5px;
+}
+#lfa-wrapper .customizer .wp-picker-container * {
+  box-sizing: content-box !important;
+}
+#lfa-wrapper .customizer .wp-picker-open + .wp-picker-input-wrap {
+  display: block!important;
+}
+#lfa-wrapper .customizer .wp-picker-input-wrap input {
+  padding: 6px;
+}
+#lfa-wrapper .customizer .wp-picker-input-wrap .wp-picker-clear {
+  padding: 2px 8px;
+}
+#lfa-about {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#lfa-about p {
+  line-height: 1.7;
+}
+#lfa-about .header {
+  margin: 30px 0;
+}
+#lfa-about .icon {
+  display: block;
+  width: 157px;
+  height: 180px;
+  margin: 0 auto;
+}
+#lfa-about .icon img {
+  max-width: 100%;
+}
+#lfa-about .version {
+  margin: 30px;
+}
+#lfa-about .features {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  display: table;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+#lfa-about .features a {
+  text-decoration: none;
+  border-bottom: 1px solid #96C7DB;
+}
+#lfa-about .features .feature + .feature {
+  border-top: 1px solid #ddd;
+}
+#lfa-about .features .image,
+#lfa-about .features .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+#lfa-about .features .image {
+  width: 30%;
+}
+#lfa-about .features .image img {
+  min-width: 100%;
+}
+#lfa-about .features .content {
+  width: 70%;
+  padding: 0 80px;
+}
+#lfa-about .features .content h1 {
+  margin-top: 0;
+  color: #1e90ff;
+}
+#lfa-about .features .content h3 {
+  color: #777777;
+}
+#lfa-about .features .content h3:after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid #ddd;
+  width: 40px;
+  height: 1px;
+  margin: 20px auto;
+}
+#lfa-about .features .content p {
+  color: #444444;
+}
+#lfa-about .features .content p:last-child {
+  margin-bottom: 0;
+}
+#lfa-about .features .feature:nth-child(odd) .content {
+  padding-left: 0;
+}
+#lfa-about .features .feature:nth-child(even) .content {
+  padding-right: 0;
+}
+#lfa-tools {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#lfa-tools .header {
+  margin: 30px 0;
+}
+#lfa-tools .header h3 {
+  margin-bottom: 60px;
+}
+#lfa-tools .icon {
+  display: block;
+  margin: 0 auto 30px;
+}
+#lfa-tools .icon img {
+  max-width: 100%;
+}
+#lfa-tools .posts {
+  border-radius: 6px;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+#lfa-tools .posts td {
+  padding: 10px;
+}
+#lfa-tools .posts thead th {
+  padding: 15px 5px;
+}
+#lfa-tools .posts thead th input {
+  margin: 2px 10px 5px;
+}
+#lfa-tools .posts tbody th {
+  padding: 12px 5px 0;
+  border-right: 1px solid #ddd;
+}
+#lfa-tools .posts tbody th,
+#lfa-tools .posts tbody td {
+  border-bottom: 1px solid #ddd;
+}
+#lfa-tools .posts tbody tr:nth-child(even) th,
+#lfa-tools .posts tbody tr:nth-child(even) td {
+  background: #fafafa;
+}
+#lfa-tools .box {
+  max-width: 800px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  display: table;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+#lfa-tools .box > div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 20px;
+}
+#lfa-tools .box > div + div {
+  border-left: 1px solid #ddd;
+}
+#lfa-tools .box > div.width-80 {
+  width: 650px;
+}
+#lfa-tools .box > div.width-20 {
+  width: 150px;
+}
+#lfa-tools .box > div.width-20 .button {
+  display: block;
+}
+@media (max-width: 1280px) {
+  #lfa-wrapper .customizer .settings-sections,
+  #lfa-wrapper .customizer .preview-pane {
+    display: block;
+    width: 100%;
+    border: 0;
+  }
+  #lfa-wrapper .customizer .preview-pane {
+    height: 600px;
+  }
+}
+.rtl #lfa-about .image img {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.rtl #lfa-about .feature:nth-child(odd) .content {
+  padding-left: 80px;
+  padding-right: 0;
+}
+.rtl #lfa-about .feature:nth-child(even) .content {
+  padding-right: 80px;
+  padding-left: 0;
+}
+.rtl #lfa-store li {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+.rtl #lfa-store li:last-child {
+  margin-right: auto;
+  margin-left: 0;
+}
+.rtl #lfa-store li .card span + span {
+  border-left: 0 none;
+  border-right: 1px solid #ccc;
+}
+.rtl #lfa-wrapper .section {
+  /**
+                 * Choices
+                 */
+}
+.rtl #lfa-wrapper .section p > label + label {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.rtl #lfa-wrapper .section p > button + button {
+  margin-left: auto;
+  margin-right: 10px;
+}
+.rtl #lfa-wrapper .section .choice-types {
+  float: right;
+}
+.rtl #lfa-wrapper .section .choices-container {
+  margin-left: auto;
+  margin-right: 90px;
+}
+.rtl #lfa-wrapper .section .choices-container .choice-controllers {
+  left: 8px;
+  right: auto;
+}
+.rtl #lfa-wrapper .customizer {
+  display: table;
+  width: 100%;
+  background: #fff;
+}
+.rtl #lfa-wrapper .customizer > div {
+  display: table-cell;
+  vertical-align: top;
+}
+.rtl #lfa-wrapper .customizer .settings-sections {
+  width: 25%;
+  border-right: 1px solid #ddd;
+}
+.rtl #lfa-wrapper .customizer .settings-sections > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+  background: #f5f5f5;
+}
+.rtl #lfa-wrapper .customizer .settings-sections > a.toggled,
+.rtl #lfa-wrapper .customizer .settings-sections > a:hover,
+.rtl #lfa-wrapper .customizer .settings-sections > a:focus {
+  background: floralwhite;
+}
+.rtl #lfa-wrapper .customizer .settings-sections .settings-section {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 15px;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+.rtl #lfa-wrapper .customizer .settings-sections .settings-section:last-child {
+  border-bottom: 0;
+}
+.rtl #lfa-wrapper .customizer .settings-sections .settings-section .settings-field-container {
+  border-bottom: 1px solid #ddd;
+  margin: -15px;
+  padding: 15px;
+}
+.rtl #lfa-wrapper .customizer .settings-sections .settings-section .settings-field-container + .settings-field-container {
+  margin-top: 15px;
+}
+.rtl #lfa-wrapper .customizer .settings-sections .settings-section .settings-field-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.rtl #lfa-wrapper .customizer .preview-pane {
+  width: 75%;
+  min-height: 600px;
+  padding: 5px;
+}
+.rtl #lfa-wrapper .customizer .wp-picker-container * {
+  box-sizing: content-box !important;
+}
+.rtl #lfa-wrapper .customizer .wp-picker-open + .wp-picker-input-wrap {
+  display: block!important;
+}
+.rtl #lfa-wrapper .customizer .wp-picker-input-wrap input {
+  padding: 6px;
+}
+.rtl #lfa-wrapper .customizer .wp-picker-input-wrap .wp-picker-clear {
+  padding: 2px 8px;
+}

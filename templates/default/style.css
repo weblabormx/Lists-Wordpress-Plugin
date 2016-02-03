@@ -1,0 +1,116 @@
+/*
+    Template Name: Default
+    Description: Default template for ListForArticles
+    Version: 1.0
+    Author: WPStore
+    Author URI: http://wpsto.re/
+    Template URI: http://listforarticles.com/store/templates/default
+*/
+
+/* Box sizing */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+/* Reset */
+div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,audio,canvas,details,figcaption,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,summary,time,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background-color:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section,blockquote{display:block;}ul, ol{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}ins{text-decoration:underline;}del{text-decoration:line-through;}mark{background:none;}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input[type=submit],input[type=button],button{margin:0;padding:0;}input,select,a img{vertical-align:middle;}li {list-style: none inside}ul:before,li:before,ul:after,li:after{display: none;content: ""}
+
+/**
+ * Question
+ */
+.question{
+    padding-bottom: 1em;
+}
+
+/**
+ * Choices & Results
+ */
+.choices, .results {
+    background: {{general.containerBackground}};
+    margin-bottom: 1em;
+    overflow: hidden;
+    -webkit-border-bottom-left-radius: {{general.borderRadius}}px;
+    -moz-border-bottom-left-radius: {{general.borderRadius}}px;
+    border-bottom-left-radius: {{general.borderRadius}}px;
+    -webkit-border-bottom-right-radius: {{general.borderRadius}}px;
+    -moz-border-bottom-right-radius: {{general.borderRadius}}px;
+    border-bottom-right-radius: {{general.borderRadius}}px;
+}
+.choices, .choices {
+    width: 100%;
+}
+.choices, .choices li, .results, .results li {
+    color: {{general.choiceColor}};
+}
+.choices li .choice-content {
+    clear: left;
+}
+
+.choices li .choice-content img {
+    float: left;
+    padding: 0 20px 15px 0;
+}
+.choices li .choice-content h3 {
+    display: inline-block;
+}
+.choices li .input {
+    display: block;
+    clear: left;
+    background: #f9f9f9;
+    margin: 15px 0;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.choices li .input .readymsg {
+    display: none;
+}
+.choices li .input input {
+    margin-left: 10px;
+}
+.choices li .input .hasr {
+    font-style: italic;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/**
+ * Buttons
+ */
+.lfa-primary-btn {
+    display: none;
+}
+
+/**
+ * Message
+ */
+
+.warning {
+    display: block;
+    padding: 1em;
+    background: {{general.warningBackground}};
+    border: 1px solid {{general.warningBorder}};
+    color: {{general.warningColor}};
+}
+.warning + .warning ,
+.warning + .question {
+    margin-top: 1em;
+}
+
+/**
+ * Responsive
+ */
+@media screen and (max-width: 768px) {
+    
+    .lfa-btn {
+        display: block;
+        width: 100%;
+    }
+    
+    .lfa-btn + .lfa-btn {
+        margin: 1em 0 0;
+    }
+
+}

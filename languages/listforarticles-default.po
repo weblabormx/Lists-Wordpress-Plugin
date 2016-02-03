@@ -1,0 +1,809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ListForArticles\n"
+"POT-Creation-Date: 2014-10-06 09:32+0100\n"
+"PO-Revision-Date: 2014-10-06 09:32+0100\n"
+"Last-Translator: WPStore <translate@wpsto.re>\n"
+"Language-Team: WPStore <translate@wpsto.re>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ../includes\n"
+"X-Poedit-SearchPath-1: ../assets\n"
+"X-Poedit-SearchPath-2: ../templates/default\n"
+
+#: ../includes/admin/about.php:8
+msgid "Welcome to ListForArticles"
+msgstr ""
+
+#: ../includes/admin/about.php:19
+msgid "Fast & Easy"
+msgstr ""
+
+#: ../includes/admin/about.php:20
+msgid "Create your lists with no effort at all"
+msgstr ""
+
+#: ../includes/admin/about.php:22
+msgid ""
+"Its very easy to create lists with ListForArticles and manage them, Just few "
+"clicks around! For more information check the <a href=\"http://www.totallist."
+"com/documentation\">user guide</a>."
+msgstr ""
+
+#: ../includes/admin/about.php:28
+msgid "Reliable & Safe"
+msgstr ""
+
+#: ../includes/admin/about.php:29
+msgid "All the tools you need to manage lists"
+msgstr ""
+
+#: ../includes/admin/about.php:31
+msgid ""
+"ListForArticles built with a very strong foundation, It uses multiple security "
+"layers and limitations to protect your votes credibility."
+msgstr ""
+
+#: ../includes/admin/about.php:43
+msgid "Addons"
+msgstr ""
+
+#: ../includes/admin/about.php:43
+msgid "Pro"
+msgstr ""
+
+#: ../includes/admin/about.php:44
+msgid "Limitless features"
+msgstr ""
+
+#: ../includes/admin/about.php:46
+msgid ""
+"Extend ListForArticles with additional features and functionalities by using "
+"addons. A limitless possibilities."
+msgstr ""
+
+#: ../includes/admin/about.php:53 ../includes/admin/store.php:9
+#: ../includes/class-admin.php:52
+msgid "Templates"
+msgstr ""
+
+#: ../includes/admin/about.php:54
+msgid "Customizable design"
+msgstr ""
+
+#: ../includes/admin/about.php:56
+#, php-format
+msgid ""
+"Make your lists look better with <a href=\"%s\">templates</a> and match your "
+"brand easily by using the lovely customizer."
+msgstr ""
+
+#: ../includes/admin/about.php:68
+msgid "Extensiblity & Docs"
+msgstr ""
+
+#: ../includes/admin/about.php:69
+msgid "A developer? You will love this"
+msgstr ""
+
+#: ../includes/admin/about.php:71
+msgid ""
+"Hook into ListForArticles and extend it in the way you like by using our "
+"informative <a href=\"http://www.developers.totallist.com/\">developer's "
+"documentation</a>."
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:5
+msgid "Choices"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:10
+msgid "Override votes"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:15
+#: ../includes/admin/editor/choices.php:43
+#: ../includes/admin/editor/footer.php:22
+msgid "Image"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:16
+#: ../includes/admin/editor/choices.php:17
+#: ../includes/admin/editor/choices.php:18
+#: ../includes/admin/editor/choices.php:19
+msgid "Available in Pro version."
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:16
+msgid "Link"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:17
+msgid "Video"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:18
+msgid "HTML"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:19
+#: ../includes/admin/editor/shortcode.php:5
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:29
+#: ../includes/admin/editor/choices.php:42
+#: ../includes/admin/editor/choices.php:59
+#: ../includes/admin/editor/footer.php:7
+#: ../includes/admin/editor/footer.php:21 ../templates/default/results.php:16
+#: ../templates/default/results.php:20
+msgid "Votes"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:30
+#: ../includes/admin/editor/footer.php:8
+msgid "Text"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:44
+#: ../includes/admin/editor/footer.php:23
+msgid "Full Size URL"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:45
+#: ../includes/admin/editor/footer.php:24
+msgid "Label"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:49
+#: ../includes/admin/editor/footer.php:27
+msgid "upload"
+msgstr ""
+
+#: ../includes/admin/editor/design.php:5
+msgid "Design"
+msgstr ""
+
+#: ../includes/admin/editor/design.php:23
+msgid "Presets"
+msgstr ""
+
+#: ../includes/admin/editor/design.php:40
+msgid "Save as"
+msgstr ""
+
+#: ../includes/admin/editor/design.php:45
+msgid "Reset"
+msgstr ""
+
+#: ../includes/admin/editor/design.php:47 ../includes/admin/templates.php:74
+msgid "Delete"
+msgstr ""
+
+#: ../includes/admin/editor/incompatible.php:2
+#, php-format
+msgid ""
+"This list isn't compatible with your current version of ListForArticles. Please <a "
+"href=\"%s\">upgrade your lists</a>."
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:5
+msgid "Limitations"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:9
+msgid "Prevent re-vote using"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:12
+msgid "Sessions"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:15
+msgid "Cookies"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:18
+msgid "IP"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:18
+#: ../includes/admin/editor/limitations.php:21
+#: ../includes/admin/editor/limitations.php:52
+#: ../includes/admin/editor/limitations.php:60
+#: ../includes/admin/editor/limitations.php:68
+#: ../includes/admin/editor/limitations.php:76
+#: ../includes/admin/editor/limitations.php:84
+#: ../includes/admin/editor/limitations.php:92
+#: ../includes/admin/editor/limitations.php:100
+#: ../includes/admin/editor/logs.php:10 ../includes/admin/editor/misc.php:53
+#: ../includes/admin/editor/sharing.php:10
+msgid "(Pro version only)"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:21
+msgid "IP Range"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:27
+msgid "Cookies timeout (minutes)"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:36
+msgid "User must vote to see results"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:44
+msgid "User can give multiple answers"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:52
+msgid "Close list when votes quota exceed"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:60
+msgid "Date limited"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:68
+msgid "Captcha"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:76
+msgid "Restrict vote by ip"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:84
+msgid "Limit multiple anwsers"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:92
+msgid "Keep results private"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:100
+msgid "Only logged in users can vote"
+msgstr ""
+
+#: ../includes/admin/editor/logs.php:5
+msgid "Logs"
+msgstr ""
+
+#: ../includes/admin/editor/logs.php:10
+msgid "Save logs"
+msgstr ""
+
+#: ../includes/admin/editor/logs.php:17
+msgid "Download logs"
+msgstr ""
+
+#: ../includes/admin/editor/logs.php:18
+msgid "Reset logs"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:5
+msgid "Misc"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:10
+msgid "Order results by votes"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:15
+msgid "Ascending"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:18
+msgid "Descending"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:26
+msgid "Shuffle choices order"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:32
+msgid "Results are shown as"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:36
+msgid "Number"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:39
+msgid "Percentage"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:42
+msgid "Both"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:45
+msgid "Nothing"
+msgstr ""
+
+#: ../includes/admin/editor/misc.php:53
+msgid "Pagination"
+msgstr ""
+
+#: ../includes/admin/editor/preview.php:3
+msgid ""
+"Upgrade to <a href=\"http://totallist.com\" target=\"_blank\">ListForArticles Pro</"
+"a> to see a live preview."
+msgstr ""
+
+#: ../includes/admin/editor/question.php:5
+#: ../includes/admin/editor/question.php:8
+msgid "Question"
+msgstr ""
+
+#: ../includes/admin/editor/reset.php:2
+msgid "Logs has been reset!"
+msgstr ""
+
+#: ../includes/admin/editor/sharing.php:5
+msgid "Sharing"
+msgstr ""
+
+#: ../includes/admin/editor/sharing.php:10
+msgid "Show share icons"
+msgstr ""
+
+#: ../includes/admin/store.php:10
+msgid "Available templates for lite version"
+msgstr ""
+
+#: ../includes/admin/templates.php:3
+msgid "Install Templates"
+msgstr ""
+
+#: ../includes/admin/templates.php:6
+msgid "Changes has been saved."
+msgstr ""
+
+#: ../includes/admin/templates.php:10
+msgid "Install a template in .zip format"
+msgstr ""
+
+#: ../includes/admin/templates.php:11
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+
+#: ../includes/admin/templates.php:15
+msgid "Template zip file"
+msgstr ""
+
+#: ../includes/admin/templates.php:17
+msgid "Install Now"
+msgstr ""
+
+#: ../includes/admin/templates.php:22
+msgid "Available Templates"
+msgstr ""
+
+#: ../includes/admin/templates.php:23
+msgid "Available installed templates"
+msgstr ""
+
+#: ../includes/admin/templates.php:31
+msgid "Name"
+msgstr ""
+
+#: ../includes/admin/templates.php:32
+msgid "Description"
+msgstr ""
+
+#: ../includes/admin/templates.php:33
+msgid "Author"
+msgstr ""
+
+#: ../includes/admin/templates.php:34
+msgid "Version"
+msgstr ""
+
+#: ../includes/admin/templates.php:48
+msgid "Unknown"
+msgstr ""
+
+#: ../includes/admin/templates.php:74
+msgid "Are you sure?"
+msgstr ""
+
+#: ../includes/admin/tools.php:6 ../includes/class-admin.php:56
+msgid "ListForArticles Tools"
+msgstr ""
+
+#: ../includes/admin/tools.php:10
+msgid "Backup current lists."
+msgstr ""
+
+#: ../includes/admin/tools.php:13
+msgid "Download backup"
+msgstr ""
+
+#: ../includes/admin/update-notification.php:3
+msgid "There is an new update for ListForArticles plugin."
+msgstr ""
+
+#: ../includes/admin/update-notification.php:4
+msgid "Check it out!"
+msgstr ""
+
+#: ../includes/admin/update-notification.php:6
+msgid "Dismiss"
+msgstr ""
+
+#: ../includes/class-admin.php:52
+msgid "Templates Manager"
+msgstr ""
+
+#: ../includes/class-admin.php:54
+msgid "Templates & Addons Store"
+msgstr ""
+
+#: ../includes/class-admin.php:54
+msgid "Store"
+msgstr ""
+
+#: ../includes/class-admin.php:56
+msgid "Tools"
+msgstr ""
+
+#: ../includes/class-admin.php:60
+msgid "About ListForArticles"
+msgstr ""
+
+#: ../includes/class-admin.php:60
+msgid "About"
+msgstr ""
+
+#: ../includes/class-admin.php:72
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ../includes/class-installer-skin.php:23
+msgid "Return to Templates"
+msgstr ""
+
+#: ../includes/class-installer-skin.php:25
+msgid "Return to Addons"
+msgstr ""
+
+#: ../includes/class-installer.php:51 ../includes/class-installer.php:62
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/class-installer.php:52 ../includes/class-installer.php:63
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/class-installer.php:53
+msgid "Installing the template&#8230;"
+msgstr ""
+
+#: ../includes/class-installer.php:54
+msgid "The template contains no files."
+msgstr ""
+
+#: ../includes/class-installer.php:55
+msgid "Template install failed."
+msgstr ""
+
+#: ../includes/class-installer.php:56
+msgid "Template installed successfully."
+msgstr ""
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:58
+#, php-format
+msgid "Successfully installed the template <strong>%1$s %2$s</strong>."
+msgstr ""
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:60 ../includes/class-installer.php:71
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr ""
+
+#: ../includes/class-installer.php:64
+msgid "Installing the addon&#8230;"
+msgstr ""
+
+#: ../includes/class-installer.php:65
+msgid "The addon contains no files."
+msgstr ""
+
+#: ../includes/class-installer.php:66
+msgid "Addon install failed."
+msgstr ""
+
+#: ../includes/class-installer.php:67
+msgid "Addon installed successfully."
+msgstr ""
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:69
+#, php-format
+msgid "Successfully installed the addon <strong>%1$s %2$s</strong>."
+msgstr ""
+
+#: ../includes/class-installer.php:141
+msgid "The template is missing the <code>style.css</code> stylesheet."
+msgstr ""
+
+#: ../includes/class-installer.php:147
+msgid ""
+"The <code>style.css</code> stylesheet doesn't contain a valid template "
+"header."
+msgstr ""
+
+#: ../includes/class-installer.php:152
+msgid ""
+"The template is missing the <code>vote.php</code> or <code>results.php</"
+"code> file."
+msgstr ""
+
+#: ../includes/class-installer.php:159
+msgid "The addon is missing the <code>addon.php</code> essential file."
+msgstr ""
+
+#: ../includes/class-installer.php:165
+msgid "The <code>addon.php</code> file doesn't contain a valid addon header."
+msgstr ""
+
+#: ../includes/class-installer.php:169
+msgid ""
+"The <code>addon.php</code> file doesn't contain a minimum required version."
+msgstr ""
+
+#: ../includes/class-installer.php:173
+#, php-format
+msgid "This addon require ListForArticles version %s or higher"
+msgstr ""
+
+#: ../includes/class-list-editor.php:126 ../includes/class-list-editor.php:247
+msgid "Choice sample"
+msgstr ""
+
+#: ../includes/class-request.php:44
+msgid "You cannot preview this list. Login first."
+msgstr ""
+
+#: ../includes/class-template.php:552
+msgid "Upload Template"
+msgstr ""
+
+#: ../includes/class-template.php:556
+#, php-format
+msgid "Installing Template from uploaded file: %s"
+msgstr ""
+
+#: ../includes/class-template.php:615
+msgid "Could not access filesystem."
+msgstr ""
+
+#: ../includes/class-template.php:618
+msgid "Filesystem error."
+msgstr ""
+
+#: ../includes/class-template.php:623
+msgid "Unable to locate ListForArticles templates directory."
+msgstr ""
+
+#: ../includes/class-template.php:630
+#, php-format
+msgid "Could not fully remove the template %s."
+msgstr ""
+
+#: ../includes/class-widget.php:24
+msgid "List - ListForArticles"
+msgstr ""
+
+#: ../includes/class-widget.php:25
+msgid "List widget"
+msgstr ""
+
+#: ../includes/class-widget.php:119 ../includes/class-widget.php:139
+#: ../includes/post-type.php:19
+msgid "List"
+msgstr ""
+
+#: ../includes/class-widget.php:134
+msgid "Title:"
+msgstr ""
+
+#: ../includes/post-type.php:18 ../includes/post-type.php:30
+msgid "Lists"
+msgstr ""
+
+#: ../includes/post-type.php:20
+msgid "Add New"
+msgstr ""
+
+#: ../includes/post-type.php:21
+msgid "Add New List"
+msgstr ""
+
+#: ../includes/post-type.php:22
+msgid "Edit List"
+msgstr ""
+
+#: ../includes/post-type.php:23
+msgid "New List"
+msgstr ""
+
+#: ../includes/post-type.php:24
+msgid "All Lists"
+msgstr ""
+
+#: ../includes/post-type.php:25
+msgid "View List"
+msgstr ""
+
+#: ../includes/post-type.php:26
+msgid "Search Lists"
+msgstr ""
+
+#: ../includes/post-type.php:27
+msgid "No lists found"
+msgstr ""
+
+#: ../includes/post-type.php:28
+msgid "No lists found in Trash"
+msgstr ""
+
+#: ../includes/post-type.php:73
+#, php-format
+msgid "List updated. <a href=\"%s\">View list</a>"
+msgstr ""
+
+#: ../includes/post-type.php:74
+msgid "Custom field updated."
+msgstr ""
+
+#: ../includes/post-type.php:75
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../includes/post-type.php:76
+msgid "List updated."
+msgstr ""
+
+#: ../includes/post-type.php:77
+#, php-format
+msgid "List restored to revision from %s"
+msgstr ""
+
+#: ../includes/post-type.php:78
+#, php-format
+msgid "List published. <a href=\"%s\">View list</a>"
+msgstr ""
+
+#: ../includes/post-type.php:79
+msgid "List saved."
+msgstr ""
+
+#: ../includes/post-type.php:80
+#, php-format
+msgid "List submitted. <a target=\"_blank\" href=\"%s\">Preview list</a>"
+msgstr ""
+
+#: ../includes/post-type.php:81
+#, php-format
+msgid ""
+"List scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview list</a>"
+msgstr ""
+
+#: ../includes/post-type.php:81
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/post-type.php:82
+#, php-format
+msgid "List draft updated. <a target=\"_blank\" href=\"%s\">Preview list</a>"
+msgstr ""
+
+#: ../templates/default/results.php:39
+msgid "Back"
+msgstr ""
+
+#: ../templates/default/settings.php:9
+msgid "General settings"
+msgstr ""
+
+#: ../templates/default/settings.php:13
+msgid "Container border"
+msgstr ""
+
+#: ../templates/default/settings.php:18
+msgid "Container background"
+msgstr ""
+
+#: ../templates/default/settings.php:23
+msgid "Warning messages background"
+msgstr ""
+
+#: ../templates/default/settings.php:28
+msgid "Warning messages border"
+msgstr ""
+
+#: ../templates/default/settings.php:33
+msgid "Warning messages text color"
+msgstr ""
+
+#: ../templates/default/settings.php:38
+msgid "Question background"
+msgstr ""
+
+#: ../templates/default/settings.php:43
+msgid "Question color"
+msgstr ""
+
+#: ../templates/default/settings.php:48
+msgid "Choice color"
+msgstr ""
+
+#: ../templates/default/settings.php:53
+msgid "Checkbox background"
+msgstr ""
+
+#: ../templates/default/settings.php:58
+msgid "Animation duration (ms)"
+msgstr ""
+
+#: ../templates/default/settings.php:63
+msgid "Border radius (px)"
+msgstr ""
+
+#: ../templates/default/settings.php:69
+msgid "Buttons"
+msgstr ""
+
+#: ../templates/default/settings.php:73 ../templates/default/settings.php:114
+msgid "Background"
+msgstr ""
+
+#: ../templates/default/settings.php:79
+msgid "Primary background"
+msgstr ""
+
+#: ../templates/default/settings.php:85
+msgid "Default color"
+msgstr ""
+
+#: ../templates/default/settings.php:91
+msgid "Primary color"
+msgstr ""
+
+#: ../templates/default/settings.php:97 ../templates/default/settings.php:103
+msgid "Border color"
+msgstr ""
+
+#: ../templates/default/settings.php:110
+msgid "Votes bar"
+msgstr ""
+
+#: ../templates/default/settings.php:120
+msgid "Bar color"
+msgstr ""
+
+#: ../templates/default/vote.php:28
+msgid "Vote to see results"
+msgstr ""
+
+#: ../templates/default/vote.php:30
+msgid "Results"
+msgstr ""
+
+#: ../templates/default/vote.php:32
+msgid "Vote"
+msgstr ""

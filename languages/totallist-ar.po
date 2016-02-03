@@ -1,0 +1,982 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ListForArticles\n"
+"POT-Creation-Date: 2014-10-06 09:31+0100\n"
+"PO-Revision-Date: 2014-10-06 09:32+0100\n"
+"Last-Translator: WPStore <translate@wpsto.re>\n"
+"Language-Team: WPStore <translate@wpsto.re>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ../includes\n"
+"X-Poedit-SearchPath-1: ../assets\n"
+"X-Poedit-SearchPath-2: ../templates/default\n"
+
+#: ../includes/admin/about.php:8
+msgid "Welcome to ListForArticles"
+msgstr "مرحبا بك في  ListForArticles"
+
+#: ../includes/admin/about.php:19
+msgid "Fast & Easy"
+msgstr "سهل وسريع"
+
+#: ../includes/admin/about.php:20
+msgid "Create your lists with no effort at all"
+msgstr "قم بإنشاء التصويتات دون أي جهد"
+
+#: ../includes/admin/about.php:22
+msgid ""
+"Its very easy to create lists with ListForArticles and manage them, Just few "
+"clicks around! For more information check the <a href=\"http://www.listforarticles."
+"com/documentation\">user guide</a>."
+msgstr ""
+"عملية إنشاء تصويت مع ListForArticles تعتبر سهلة وبسيطة جداً، بضع ضغطات وكل شيء "
+"سيكون جاهزا! للمزيد من المعلومات شاهد <a href=\"http://www.listforarticles.com/"
+"documentation\">ديليل المستخدم</a>."
+
+#: ../includes/admin/about.php:28
+msgid "Reliable & Safe"
+msgstr "فعّال وآمن"
+
+#: ../includes/admin/about.php:29
+msgid "All the tools you need to manage lists"
+msgstr "كل ما تحتاجه لإدارة التصويتات"
+
+#: ../includes/admin/about.php:31
+msgid ""
+"ListForArticles built with a very strong foundation, It uses multiple security "
+"layers and limitations to protect your votes credibility."
+msgstr ""
+"تم إنشاء ListForArticles بأساس قويم، حيث أنه يقدم عدّة طبقات حماية بالإضافة إلى عدد "
+"من القيود لحماية مصداقية الأصوات."
+
+#: ../includes/admin/about.php:43
+msgid "Addons"
+msgstr "الملحقات"
+
+#: ../includes/admin/about.php:43
+msgid "Pro"
+msgstr "نسخة احترافية"
+
+#: ../includes/admin/about.php:44
+msgid "Limitless features"
+msgstr "مميزات دون حدود"
+
+#: ../includes/admin/about.php:46
+msgid ""
+"Extend ListForArticles with additional features and functionalities by using "
+"addons. A limitless possibilities."
+msgstr ""
+"يمكنك أن تمد ListForArticles بالمزيد من المزايا والوظائف باستخدام الملحقات. لا "
+"حدود للإمكانيات."
+
+#: ../includes/admin/about.php:53 ../includes/admin/store.php:9
+#: ../includes/class-admin.php:52
+msgid "Templates"
+msgstr "القوالب"
+
+#: ../includes/admin/about.php:54
+msgid "Customizable design"
+msgstr "تصميم قابل للتخصيص"
+
+#: ../includes/admin/about.php:56
+#, php-format
+msgid ""
+"Make your lists look better with <a href=\"%s\">templates</a> and match your "
+"brand easily by using the lovely customizer."
+msgstr ""
+"اجعل التصويتات تبدو أجمل عند استعمالك <a href=\"%s\">للقوالب</a> ومتناغمة مع "
+"هوية موقعك بسهولة عند استعمالك أداة التخصيص."
+
+#: ../includes/admin/about.php:68
+msgid "Extensiblity & Docs"
+msgstr "التوثيق وقابلية التمديد"
+
+#: ../includes/admin/about.php:69
+msgid "A developer? You will love this"
+msgstr "أنت مطوّر؟ ستحب هذا"
+
+#: ../includes/admin/about.php:71
+msgid ""
+"Hook into ListForArticles and extend it in the way you like by using our "
+"informative <a href=\"http://www.developers.listforarticles.com/\">developer's "
+"documentation</a>."
+msgstr ""
+"قم بتمديد إضافة ListForArticles وتطويعها بالشكل الذي تحب باستخدام <a href=\"http://"
+"www.developers.listforarticles.com/\">وثائق المطوّرين</a>."
+
+#: ../includes/admin/editor/choices.php:5
+msgid "Choices"
+msgstr "الاختيارات"
+
+#: ../includes/admin/editor/choices.php:10
+msgid "Override votes"
+msgstr "تجاوز عدد التصويتات"
+
+#: ../includes/admin/editor/choices.php:15
+#: ../includes/admin/editor/choices.php:43
+#: ../includes/admin/editor/footer.php:22
+msgid "Image"
+msgstr "صورة"
+
+#: ../includes/admin/editor/choices.php:16
+#: ../includes/admin/editor/choices.php:17
+#: ../includes/admin/editor/choices.php:18
+#: ../includes/admin/editor/choices.php:19
+msgid "Available in Pro version."
+msgstr "متوفر في النسخة الاحترافية"
+
+#: ../includes/admin/editor/choices.php:16
+msgid "Link"
+msgstr "رابط"
+
+#: ../includes/admin/editor/choices.php:17
+msgid "Video"
+msgstr "فيديو"
+
+#: ../includes/admin/editor/choices.php:18
+#, fuzzy
+msgid "HTML"
+msgstr "كود HTML"
+
+#: ../includes/admin/editor/choices.php:19
+#: ../includes/admin/editor/shortcode.php:5
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:29
+#: ../includes/admin/editor/choices.php:42
+#: ../includes/admin/editor/choices.php:59
+#: ../includes/admin/editor/footer.php:7
+#: ../includes/admin/editor/footer.php:21 ../templates/default/results.php:16
+#: ../templates/default/results.php:20
+msgid "Votes"
+msgstr "الأصوات"
+
+#: ../includes/admin/editor/choices.php:30
+#: ../includes/admin/editor/footer.php:8
+msgid "Text"
+msgstr "نص"
+
+#: ../includes/admin/editor/choices.php:44
+#: ../includes/admin/editor/footer.php:23
+msgid "Full Size URL"
+msgstr "رابط الحجم الكامل"
+
+#: ../includes/admin/editor/choices.php:45
+#: ../includes/admin/editor/footer.php:24
+msgid "Label"
+msgstr "التسمية"
+
+#: ../includes/admin/editor/choices.php:49
+#: ../includes/admin/editor/footer.php:27
+msgid "upload"
+msgstr "رفع"
+
+#: ../includes/admin/editor/design.php:5
+msgid "Design"
+msgstr "التصميم"
+
+#: ../includes/admin/editor/design.php:23
+msgid "Presets"
+msgstr "الإعدادات المسبقة"
+
+#: ../includes/admin/editor/design.php:40
+msgid "Save as"
+msgstr "حفظ بإسم"
+
+#: ../includes/admin/editor/design.php:45
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: ../includes/admin/editor/design.php:47 ../includes/admin/templates.php:74
+msgid "Delete"
+msgstr "حذف"
+
+#: ../includes/admin/editor/incompatible.php:2
+#, php-format
+msgid ""
+"This list isn't compatible with your current version of ListForArticles. Please <a "
+"href=\"%s\">upgrade your lists</a>."
+msgstr ""
+"هذا التصويت غير متوافق مع النسخة الحالية من ListForArticles. من فضلك قم <a href="
+"\"%s\">بترقية التصويت</a>."
+
+#: ../includes/admin/editor/limitations.php:5
+msgid "Limitations"
+msgstr "القيود"
+
+#: ../includes/admin/editor/limitations.php:9
+msgid "Prevent re-vote using"
+msgstr "منع إعادة التصويت باستخدام"
+
+#: ../includes/admin/editor/limitations.php:12
+msgid "Sessions"
+msgstr "الجلسات (Sessions)"
+
+#: ../includes/admin/editor/limitations.php:15
+msgid "Cookies"
+msgstr "الكعكات (Cookies)"
+
+#: ../includes/admin/editor/limitations.php:18
+msgid "IP"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:18
+#: ../includes/admin/editor/limitations.php:21
+#: ../includes/admin/editor/limitations.php:52
+#: ../includes/admin/editor/limitations.php:60
+#: ../includes/admin/editor/limitations.php:68
+#: ../includes/admin/editor/limitations.php:76
+#: ../includes/admin/editor/limitations.php:84
+#: ../includes/admin/editor/limitations.php:92
+#: ../includes/admin/editor/limitations.php:100
+#: ../includes/admin/editor/logs.php:10 ../includes/admin/editor/misc.php:53
+#: ../includes/admin/editor/sharing.php:10
+msgid "(Pro version only)"
+msgstr "(متوفر في النسخة الاحترافية)"
+
+#: ../includes/admin/editor/limitations.php:21
+msgid "IP Range"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:27
+msgid "Cookies timeout (minutes)"
+msgstr "مهلة الكعكات (بالدقائق)"
+
+#: ../includes/admin/editor/limitations.php:36
+msgid "User must vote to see results"
+msgstr "على المستخدم أن يقوم بالتصويت ليرى النتائج"
+
+#: ../includes/admin/editor/limitations.php:44
+msgid "User can give multiple answers"
+msgstr "يمكن للمستخدم تحديد أكثر من اختيار"
+
+#: ../includes/admin/editor/limitations.php:52
+msgid "Close list when votes quota exceed"
+msgstr "إغلاق التصويت عند اكتمال حصة الأصوات"
+
+#: ../includes/admin/editor/limitations.php:60
+msgid "Date limited"
+msgstr "تحديد الوقت"
+
+#: ../includes/admin/editor/limitations.php:68
+msgid "Captcha"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:76
+msgid "Restrict vote by ip"
+msgstr "منع التصويت باستخدام IP"
+
+#: ../includes/admin/editor/limitations.php:84
+#, fuzzy
+msgid "Limit multiple anwsers"
+msgstr "يمكن للمستخدم تحديد أكثر من اختيار"
+
+#: ../includes/admin/editor/limitations.php:92
+#, fuzzy
+msgid "Keep results private"
+msgstr "ترتيب النائج حسب الأصوات"
+
+#: ../includes/admin/editor/limitations.php:100
+msgid "Only logged in users can vote"
+msgstr "فقط المستخدمين المسجلين دخولهم يستطيعون التصويت"
+
+#: ../includes/admin/editor/logs.php:5
+msgid "Logs"
+msgstr "السجلات"
+
+#: ../includes/admin/editor/logs.php:10
+msgid "Save logs"
+msgstr "حفظ السجلات"
+
+#: ../includes/admin/editor/logs.php:17
+msgid "Download logs"
+msgstr "تحميل السجلات"
+
+#: ../includes/admin/editor/logs.php:18
+msgid "Reset logs"
+msgstr "إعادة تعيين السجلات"
+
+#: ../includes/admin/editor/misc.php:5
+msgid "Misc"
+msgstr "متفرقات"
+
+#: ../includes/admin/editor/misc.php:10
+msgid "Order results by votes"
+msgstr "ترتيب النائج حسب الأصوات"
+
+#: ../includes/admin/editor/misc.php:15
+msgid "Ascending"
+msgstr "تصاعدي"
+
+#: ../includes/admin/editor/misc.php:18
+msgid "Descending"
+msgstr "تنازلي"
+
+#: ../includes/admin/editor/misc.php:26
+msgid "Shuffle choices order"
+msgstr "ترتيب الاختيارات عشوائياً"
+
+#: ../includes/admin/editor/misc.php:32
+msgid "Results are shown as"
+msgstr "عرض النتائج ك"
+
+#: ../includes/admin/editor/misc.php:36
+msgid "Number"
+msgstr "رقم"
+
+#: ../includes/admin/editor/misc.php:39
+msgid "Percentage"
+msgstr "نسبة مئوية"
+
+#: ../includes/admin/editor/misc.php:42
+msgid "Both"
+msgstr "كليهما"
+
+#: ../includes/admin/editor/misc.php:45
+msgid "Nothing"
+msgstr "لا شيء"
+
+#: ../includes/admin/editor/misc.php:53
+msgid "Pagination"
+msgstr "نظام التصفح (الصفحات)"
+
+#: ../includes/admin/editor/preview.php:3
+msgid ""
+"Upgrade to <a href=\"http://listforarticles.com\" target=\"_blank\">ListForArticles Pro</"
+"a> to see a live preview."
+msgstr ""
+"قم بالترقية <a href=\"http://listforarticles.com\" target=\"_blank\">للنسخة "
+"الاحترافية</a> لتستطيع مشاهدة التصويت بشكل حي."
+
+#: ../includes/admin/editor/question.php:5
+#: ../includes/admin/editor/question.php:8
+msgid "Question"
+msgstr "السؤال"
+
+#: ../includes/admin/editor/reset.php:2
+msgid "Logs has been reset!"
+msgstr "تم إعادة تعيين السجلات!"
+
+#: ../includes/admin/editor/sharing.php:5
+msgid "Sharing"
+msgstr "المشاركة"
+
+#: ../includes/admin/editor/sharing.php:10
+msgid "Show share icons"
+msgstr "عرض إيقونات المشاركة"
+
+#: ../includes/admin/store.php:10
+msgid "Available templates for lite version"
+msgstr "القوالب المتوفرة للنسخة المجانية"
+
+#: ../includes/admin/templates.php:3
+msgid "Install Templates"
+msgstr "تنصيب القوالب"
+
+#: ../includes/admin/templates.php:6
+msgid "Changes has been saved."
+msgstr "تم حفظ التغييرات."
+
+#: ../includes/admin/templates.php:10
+msgid "Install a template in .zip format"
+msgstr "اتصيب قالب بصيغة .zip"
+
+#: ../includes/admin/templates.php:11
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr "إذا كنت تملك قالب بصيغة .zip، يمكنك تنصيبه عبر رفعه هنا."
+
+#: ../includes/admin/templates.php:15
+msgid "Template zip file"
+msgstr "ملف zip للقالب"
+
+#: ../includes/admin/templates.php:17
+msgid "Install Now"
+msgstr "تنصيب الآن"
+
+#: ../includes/admin/templates.php:22
+msgid "Available Templates"
+msgstr "القوالب المتوفرة"
+
+#: ../includes/admin/templates.php:23
+msgid "Available installed templates"
+msgstr "القوالب المنصّبة"
+
+#: ../includes/admin/templates.php:31
+msgid "Name"
+msgstr "الاسم"
+
+#: ../includes/admin/templates.php:32
+msgid "Description"
+msgstr "الوصف"
+
+#: ../includes/admin/templates.php:33
+msgid "Author"
+msgstr "الكاتب"
+
+#: ../includes/admin/templates.php:34
+msgid "Version"
+msgstr "الإصدار"
+
+#: ../includes/admin/templates.php:48
+msgid "Unknown"
+msgstr "مجهول"
+
+#: ../includes/admin/templates.php:74
+msgid "Are you sure?"
+msgstr "هل أنت متأكد؟"
+
+#: ../includes/admin/tools.php:6 ../includes/class-admin.php:56
+msgid "ListForArticles Tools"
+msgstr "أدوات ListForArticles"
+
+#: ../includes/admin/tools.php:10
+msgid "Backup current lists."
+msgstr "أخذ نسخة احتياطية للتصويتات"
+
+#: ../includes/admin/tools.php:13
+msgid "Download backup"
+msgstr "تحميل النسخة الاحتياطية"
+
+#: ../includes/admin/update-notification.php:3
+msgid "There is an new update for ListForArticles plugin."
+msgstr "هناك تحديث جديد لإضافة ListForArticles."
+
+#: ../includes/admin/update-notification.php:4
+msgid "Check it out!"
+msgstr "اطلع على المزيد!"
+
+#: ../includes/admin/update-notification.php:6
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: ../includes/class-admin.php:52
+msgid "Templates Manager"
+msgstr "مدير القوالب"
+
+#: ../includes/class-admin.php:54
+msgid "Templates & Addons Store"
+msgstr "متجر القوالب والملحقات"
+
+#: ../includes/class-admin.php:54
+msgid "Store"
+msgstr "المتجر"
+
+#: ../includes/class-admin.php:56
+msgid "Tools"
+msgstr "أدوات"
+
+#: ../includes/class-admin.php:60
+msgid "About ListForArticles"
+msgstr "عن ListForArticles"
+
+#: ../includes/class-admin.php:60
+msgid "About"
+msgstr "حول الاضافة"
+
+#: ../includes/class-admin.php:72
+msgid "Upgrade to Pro"
+msgstr "رقي نسختك"
+
+#: ../includes/class-installer-skin.php:23
+msgid "Return to Templates"
+msgstr "العودة إلى القوالب"
+
+#: ../includes/class-installer-skin.php:25
+msgid "Return to Addons"
+msgstr "العودة إلى الملحقات"
+
+#: ../includes/class-installer.php:51 ../includes/class-installer.php:62
+msgid "Install package not available."
+msgstr "حزمة التنصيب غير متوفرة."
+
+#: ../includes/class-installer.php:52 ../includes/class-installer.php:63
+msgid "Unpacking the package&#8230;"
+msgstr "جاري فك ضغط الحزمة&#8230;"
+
+#: ../includes/class-installer.php:53
+msgid "Installing the template&#8230;"
+msgstr "جاري تنصيب القالب&#8230;"
+
+#: ../includes/class-installer.php:54
+msgid "The template contains no files."
+msgstr "القالب لا يحوي ملفات."
+
+#: ../includes/class-installer.php:55
+msgid "Template install failed."
+msgstr "فشل تنصيب القالب."
+
+#: ../includes/class-installer.php:56
+msgid "Template installed successfully."
+msgstr "تم تنصيب القالب بنجاح."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:58
+#, php-format
+msgid "Successfully installed the template <strong>%1$s %2$s</strong>."
+msgstr "تم تنصيب القالب <strong>%1$s %2$s</strong> بنجاح."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:60 ../includes/class-installer.php:71
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "جاري التجهيز للتنصيب <strong>%1$s %2$s</strong>&#8230;"
+
+#: ../includes/class-installer.php:64
+msgid "Installing the addon&#8230;"
+msgstr "جاري تنصيب الملحق&#8230;"
+
+#: ../includes/class-installer.php:65
+msgid "The addon contains no files."
+msgstr "الملحق لا يحوي ملفات."
+
+#: ../includes/class-installer.php:66
+msgid "Addon install failed."
+msgstr "فشل تنصيب الملحق."
+
+#: ../includes/class-installer.php:67
+msgid "Addon installed successfully."
+msgstr "تم تنصيب الملحق بنجاح."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:69
+#, php-format
+msgid "Successfully installed the addon <strong>%1$s %2$s</strong>."
+msgstr "تم تنصيب الملحق <strong>%1$s %2$s</strong> بنجاح."
+
+#: ../includes/class-installer.php:141
+msgid "The template is missing the <code>style.css</code> stylesheet."
+msgstr "القالب لا يحوي ملف <code>style.css</code>."
+
+#: ../includes/class-installer.php:147
+msgid ""
+"The <code>style.css</code> stylesheet doesn't contain a valid template "
+"header."
+msgstr "ملف <code>style.css</code> لا يحوي ترويسة صحيحة لقالب."
+
+#: ../includes/class-installer.php:152
+msgid ""
+"The template is missing the <code>vote.php</code> or <code>results.php</"
+"code> file."
+msgstr "القالب لا يحوي ملف <code>vote.php</code> أو <code>results.php</code>."
+
+#: ../includes/class-installer.php:159
+msgid "The addon is missing the <code>addon.php</code> essential file."
+msgstr "الملحق لا يحوي ملف <code>addon.php</code> الأساسي."
+
+#: ../includes/class-installer.php:165
+msgid "The <code>addon.php</code> file doesn't contain a valid addon header."
+msgstr "ملف <code>addon.php</code> لا يحوي ترويسة صالحة."
+
+#: ../includes/class-installer.php:169
+msgid ""
+"The <code>addon.php</code> file doesn't contain a minimum required version."
+msgstr "ملف <code>addon.php</code> لا يحوي رقم الإصدارة الأدنى."
+
+#: ../includes/class-installer.php:173
+#, php-format
+msgid "This addon require ListForArticles version %s or higher"
+msgstr "هذا الملحق يتطلب ListForArticles الإصدار %s أو أعلى."
+
+#: ../includes/class-list-editor.php:126 ../includes/class-list-editor.php:247
+msgid "Choice sample"
+msgstr "عينة اختيار"
+
+#: ../includes/class-request.php:44
+msgid "You cannot preview this list. Login first."
+msgstr "لا يمكن معاينة هذا التصويت. قم بتسجيل الدخول أولا."
+
+#: ../includes/class-template.php:552
+msgid "Upload Template"
+msgstr "تحديث القالب"
+
+#: ../includes/class-template.php:556
+#, php-format
+msgid "Installing Template from uploaded file: %s"
+msgstr "جاري تنصيب القالب من الملف المرفوع: %s"
+
+#: ../includes/class-template.php:615
+msgid "Could not access filesystem."
+msgstr "لا يمكن الوصول إلى ملفات النظام."
+
+#: ../includes/class-template.php:618
+msgid "Filesystem error."
+msgstr "خطأ في ملفات النظام."
+
+#: ../includes/class-template.php:623
+msgid "Unable to locate ListForArticles templates directory."
+msgstr "غير قادر على تحديد مجلد قوالب ListForArticles."
+
+#: ../includes/class-template.php:630
+#, php-format
+msgid "Could not fully remove the template %s."
+msgstr "لا يمكن إزالة القالب %s بشكل كامل."
+
+#: ../includes/class-widget.php:24
+msgid "List - ListForArticles"
+msgstr "تصويت - ListForArticles"
+
+#: ../includes/class-widget.php:25
+msgid "List widget"
+msgstr "مربع ListForArticles الجانبي"
+
+#: ../includes/class-widget.php:119 ../includes/class-widget.php:139
+#: ../includes/post-type.php:19
+msgid "List"
+msgstr "تصويت"
+
+#: ../includes/class-widget.php:134
+msgid "Title:"
+msgstr "العنوان:"
+
+#: ../includes/post-type.php:18 ../includes/post-type.php:30
+msgid "Lists"
+msgstr "التصويتات"
+
+#: ../includes/post-type.php:20
+msgid "Add New"
+msgstr "إضافة جديد"
+
+#: ../includes/post-type.php:21
+msgid "Add New List"
+msgstr "إضافة تصويت جديد"
+
+#: ../includes/post-type.php:22
+msgid "Edit List"
+msgstr "تعديل التصويت"
+
+#: ../includes/post-type.php:23
+msgid "New List"
+msgstr "تصويت جديد"
+
+#: ../includes/post-type.php:24
+msgid "All Lists"
+msgstr "جميع التصويتات"
+
+#: ../includes/post-type.php:25
+msgid "View List"
+msgstr "عرض التصويت"
+
+#: ../includes/post-type.php:26
+msgid "Search Lists"
+msgstr "البحث عن تصويت"
+
+#: ../includes/post-type.php:27
+msgid "No lists found"
+msgstr "لم يتم العثور على تصويتات"
+
+#: ../includes/post-type.php:28
+msgid "No lists found in Trash"
+msgstr "لم يتم العثور على تصويتات في سلة المهملات"
+
+#: ../includes/post-type.php:73
+#, php-format
+msgid "List updated. <a href=\"%s\">View list</a>"
+msgstr "تم تحديث التصويت. <a href=\"%s\">عرض التصويت</a>"
+
+#: ../includes/post-type.php:74
+msgid "Custom field updated."
+msgstr "تم تحديث الحقل المخصص."
+
+#: ../includes/post-type.php:75
+msgid "Custom field deleted."
+msgstr "تم إزالة الحقل المخصص."
+
+#: ../includes/post-type.php:76
+msgid "List updated."
+msgstr "تم تحديث التصويت."
+
+#: ../includes/post-type.php:77
+#, php-format
+msgid "List restored to revision from %s"
+msgstr "تم إرسال التصويت للمراجعة من %s"
+
+#: ../includes/post-type.php:78
+#, php-format
+msgid "List published. <a href=\"%s\">View list</a>"
+msgstr "تم نشر التصويت. <a href=\"%s\">عرض التصويت</a>"
+
+#: ../includes/post-type.php:79
+msgid "List saved."
+msgstr "تم حفظ التصويت."
+
+#: ../includes/post-type.php:80
+#, php-format
+msgid "List submitted. <a target=\"_blank\" href=\"%s\">Preview list</a>"
+msgstr "تم إرسال التصويت. <a target=\"_blank\" href=\"%s\">معاينة التصويت</a>"
+
+#: ../includes/post-type.php:81
+#, php-format
+msgid ""
+"List scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview list</a>"
+msgstr ""
+"تم جدولة التصويت إلى: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">معاينة التصويت</a>"
+
+#: ../includes/post-type.php:81
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/post-type.php:82
+#, php-format
+msgid "List draft updated. <a target=\"_blank\" href=\"%s\">Preview list</a>"
+msgstr ""
+"تم تحديث مسودة التصويت. <a target=\"_blank\" href=\"%s\">معاينة التصويت</a>"
+
+#: ../templates/default/results.php:39
+msgid "Back"
+msgstr "العودة"
+
+#: ../templates/default/settings.php:9
+msgid "General settings"
+msgstr "الإعدادات العامة"
+
+#: ../templates/default/settings.php:13
+msgid "Container border"
+msgstr "حدود الحاوية"
+
+#: ../templates/default/settings.php:18
+msgid "Container background"
+msgstr "حاوي الخلفية"
+
+#: ../templates/default/settings.php:23
+msgid "Warning messages background"
+msgstr "خلفية رسالة التحذير"
+
+#: ../templates/default/settings.php:28
+msgid "Warning messages border"
+msgstr "حدود رسالة التحذير"
+
+#: ../templates/default/settings.php:33
+msgid "Warning messages text color"
+msgstr "لون نص رسالة التحذير"
+
+#: ../templates/default/settings.php:38
+msgid "Question background"
+msgstr "خلفية السؤال"
+
+#: ../templates/default/settings.php:43
+msgid "Question color"
+msgstr "لون السؤال"
+
+#: ../templates/default/settings.php:48
+msgid "Choice color"
+msgstr "لون الاختيار"
+
+#: ../templates/default/settings.php:53
+msgid "Checkbox background"
+msgstr "خلفية مربع التحديد"
+
+#: ../templates/default/settings.php:58
+msgid "Animation duration (ms)"
+msgstr "مدة التحريك (بالميلي ثانية)"
+
+#: ../templates/default/settings.php:63
+msgid "Border radius (px)"
+msgstr "إستدارة الحدود (بالبيكسل)"
+
+#: ../templates/default/settings.php:69
+msgid "Buttons"
+msgstr "الأزرار"
+
+#: ../templates/default/settings.php:73 ../templates/default/settings.php:114
+msgid "Background"
+msgstr "الخلفية"
+
+#: ../templates/default/settings.php:79
+msgid "Primary background"
+msgstr "الخلفية الأساسية"
+
+#: ../templates/default/settings.php:85
+msgid "Default color"
+msgstr "اللون الافتراضي"
+
+#: ../templates/default/settings.php:91
+msgid "Primary color"
+msgstr "اللون الأساسي"
+
+#: ../templates/default/settings.php:97 ../templates/default/settings.php:103
+msgid "Border color"
+msgstr "لون الحدود"
+
+#: ../templates/default/settings.php:110
+msgid "Votes bar"
+msgstr "شريط الاختيارات"
+
+#: ../templates/default/settings.php:120
+msgid "Bar color"
+msgstr "لون الشريط"
+
+#: ../templates/default/vote.php:28
+msgid "Vote to see results"
+msgstr "صوّت لترى النتائج"
+
+#: ../templates/default/vote.php:30
+msgid "Results"
+msgstr "النتائج"
+
+#: ../templates/default/vote.php:32
+msgid "Vote"
+msgstr "تصويت"
+
+#~ msgid "Install Addons"
+#~ msgstr "تنصيب الملحقات"
+
+#~ msgid "Install an addon in .zip format"
+#~ msgstr "تنصيب ملحق من ملف بصيغة .zip"
+
+#~ msgid ""
+#~ "If you have an addon in a .zip format, you may install it by uploading it "
+#~ "here."
+#~ msgstr "إذا كنت تملك ملحق بصيغة .zip، يمكنك تنصيبه عبر رفعه هنا."
+
+#~ msgid "Addon zip file"
+#~ msgstr "ملف zip للملحق"
+
+#~ msgid "Available Addons"
+#~ msgstr "الملحقات المتوفرة"
+
+#~ msgid "Available installed addons"
+#~ msgstr "الملحقات المنصّبة"
+
+#~ msgid "Status"
+#~ msgstr "الحالة"
+
+#~ msgid "Compatiblity"
+#~ msgstr "التوافق"
+
+#~ msgid "Active"
+#~ msgstr "مفعّلة"
+
+#~ msgid "Inactive"
+#~ msgstr "معطّلة"
+
+#~ msgid "Unbundled"
+#~ msgstr "غير مرفقة"
+
+#~ msgid "Compatible"
+#~ msgstr "متوافق"
+
+#~ msgid "Incompatible"
+#~ msgstr "غير متوافق"
+
+#~ msgid "Nothing. Seriously."
+#~ msgstr "لا شيء. حقا."
+
+#~ msgid "Activate"
+#~ msgstr "تفعيل"
+
+#~ msgid "Deactivate"
+#~ msgstr "تعطيل"
+
+#~ msgid "Upload Addon"
+#~ msgstr "تحديث الملحق"
+
+#~ msgid "Installing Addon from uploaded file: %s"
+#~ msgstr "تنصيب الملحق من الملف المرفوع: %s"
+
+#~ msgid "Unable to locate ListForArticles addons directory."
+#~ msgstr "غير قادر على تحديد مجلد ملحقات ListForArticles."
+
+#~ msgid "Could not fully remove the addon %s."
+#~ msgstr "لا يمكن إزالة الملحق %s بشكل كامل."
+
+#~ msgid "Addons Manager"
+#~ msgstr "مدير الملحقات"
+
+#~ msgid "URL"
+#~ msgstr "رابط"
+
+#~ msgid "Thumbnail"
+#~ msgstr "الصورة البارزة"
+
+#~ msgid "Video embed code"
+#~ msgstr "كود تضمين الفيديو"
+
+#~ msgid "Preview Background"
+#~ msgstr "معاينة الخلفية"
+
+#~ msgid "Preview Container Background"
+#~ msgstr "معاينة حاوي الخلفية"
+
+#~ msgid "IP Range (IPv4 only)"
+#~ msgstr "نطاق IP (IPv4 فقط)"
+
+#~ msgid "IP timeout (minutes)"
+#~ msgstr "مهلة IP (بالدقائق)"
+
+#~ msgid "IP range width (1 to 10)"
+#~ msgstr "نطاق عرض IP (1 إلى 10)"
+
+#~ msgid "IP range limits (votes per range)"
+#~ msgstr "حدود نطاق IP (تصويت لكل نطاق)"
+
+#~ msgid "Votes quota"
+#~ msgstr "حصة الأصوات"
+
+#~ msgid "Start date"
+#~ msgstr "وقت البداية"
+
+#~ msgid "End date"
+#~ msgstr "وقت النهاية"
+
+#~ msgid "Please wait."
+#~ msgstr "يرجى الإنتظار."
+
+#~ msgid "To preview this list, please save it."
+#~ msgstr "لمعاينة التصويت، يرجى حفظه."
+
+#~ msgid "Variable"
+#~ msgstr "المتغير"
+
+#~ msgid "Value"
+#~ msgstr "القيمة"
+
+#~ msgid "Current link"
+#~ msgstr "الرابط الحالي"
+
+#~ msgid "Twitter expression"
+#~ msgstr "تعبير تويتر"
+
+#~ msgid "Facebook expression"
+#~ msgstr "تعبير فيسبوك"
+
+#~ msgid "Google+ expression"
+#~ msgstr "تعبير جوجل+"
+
+#~ msgid "Check all"
+#~ msgstr "تحديد الكل"
+
+#~ msgid "All lists are compatible with the current version!"
+#~ msgstr "جميع التصويتات متوافقة مع النسخة الحالية!"
+
+#~ msgid "Browse lists"
+#~ msgstr "تصفح التصويتات"
+
+#~ msgid "Accepted"
+#~ msgstr "مقبول"
+
+#~ msgid "Denied"
+#~ msgstr "مرفوض"
+
+#~ msgid "[%s] vote for %s from %s using %s"
+#~ msgstr "[%s] تصويت ل %s من %s باستخدام %s"
+
+#~ msgid "Closed due to the exceeded votes quota"
+#~ msgstr "تم إغلاقه بسبب اكتمال حصة التصويت"
+
+#~ msgid "This list isn't started yet."
+#~ msgstr "هذا التصويت لم يبدأ بعد."
+
+#~ msgid "This list has been closed."
+#~ msgstr "هذا التصويت قد تم إغلاقه."
